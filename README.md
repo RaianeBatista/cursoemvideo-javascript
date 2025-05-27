@@ -1,4 +1,4 @@
-<img src="imagens/mascote.png" align="right" width="300">
+<img src="images/mascote.png" align="right" width="300">
 
 # Curso de JavaScript
 
