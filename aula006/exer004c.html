@@ -108,6 +108,59 @@
         <li>false || true = true</li>
         <li>false || false = false</li>
     </ul>
+    <p>Exemplo de operadores <strong>aritméticos, relacionais e lógicos</strong> na mesma expressão:<br>
+        <ol>Ordem de execução:
+            <li>Operadores Aritméticos: () ** /</li>
+            <li>Operadores Relacionais(Entre si não ha ordem de precedencia, quem aparecer primeiro da esquerda para a direita): < >  >= <=</li>
+            <li>Operadores Lógicos. Ordem de precedência: 1º  ! não ; 2º && e  ; 3º || ou</li>
+        </ol>
+        var a = 5 <br>
+        
+    var b = 8 <br>
+    a > b && b % 2 == 0 => Resultado = false
+    </p>
+    <p>a <= b || b / 2 == 2 => Resultado = true</p>
+    
+    <p>Caso em alguma expressão tenha a seguinte ordem: &&(e), ||(ou), !=(nao). Teremos a seguinte ordem de execução:</p>
+    <ol>
+        <li>!= (Não)</li>
+        <li>&& (e)</li>
+        <li>|| (ou)</li>
+    </ol>
+    <p>Exercicios</p>
+    <ul>
+    <li>idade >= 15 && idade <= 17. A idade está entre 15 e 17?</li>
+    <li>estado == "RJ" || estado == "SP". O estado é RJ ou SP?</li>
+    <li>salario > 1500 && sexo != "M". Salario é maior que 1500e sexo é diferente de Masculino?</li>
+</ul>
+
+<h2>Operador Ternário ? :</h2>
+<p>Se chama Operador ternário, por possuir 3 partes:</p>
+<ul>
+    <li>bloco de teste lógico (true or false)</li>
+    <li>bloco verdaeiro</li>
+    <li>bloco com resultado</li>
+</ul>
+<p>teste ? true : false</p>
+<p>Exemplo:</p>
+<p>var media = 5.5</p>
+<p>Se a média for maior que 7, Aprovado. Senão, Reprovado.</p>
+<p>media > 7 ? "APROVADO" : "REPROVADO"</p>
+<p>Resultado: Reprovado</p>
+
+<p>media += 3</p>
+<p>media > 7 ? "APROVADO" : "REPROVADO"</p>
+<p>Resultado: Aprovado</p>
+
+<p>Outro exemplo:</p>
+<p>var x = 8</p>
+<p>var res = x % 2 == 0 ? 5 : 9. Resultado = 5</p>
+
+<p>Outro exemplo:</p>
+<p>var idade = 19</p>
+<p>var r = idade >= 18 ? "Maior" : "Menor". Resultado = Maior</p>
+<p>idade-=3 => 16</p>
+<p>var r = idade >= 18 ? "Maior" : "Menor". Resultado = Menor</p>
     <script>
         5 + 2
         9 % 2
