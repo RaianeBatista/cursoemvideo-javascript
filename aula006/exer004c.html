@@ -35,13 +35,79 @@
     <p>var f = b % e + 4 / e = 3</p>
 
     <h2>Auto atribuição</h2>
-    <p>var n = 3</p>
-    <p>n = n + 4</p>
-    <p>n = n - 5</p>
-    <p>n = n * 4</p>
-    <p>n = n / 2</p>
-   <p>n = n ** 2</p>   <!-- 16-->
-    <p>n = n % 5</p> <!--Resto da Divisão: 16 / 5 = 3 * 5 = 15 + 1 = 16 ou 15 pra 15 falta 1-->
+    <p>O Operador +=, é usado quando a mesma variavel recebe novo valor mais valor dela mesma, sendo acumulativo</p>
+    <p>var n = 3 => </p>
+    <p>n = n + 4 => n+= 4</p>
+    <p>n = n - 5 => n-= 5</p>
+    <p>n = n * 4 => n*= 6</p>
+    <p>n = n / 2 => n/= 2</p>
+   <p>n = n ** 2 => n+= 2</p>   <!-- 16-->
+    <p>n = n % 5 => n+= 5</p> <!--Resto da Divisão: 16 / 5 = 3 * 5 = 15 + 1 = 16 ou 15 pra 15 falta 1-->
+    
+ 
+    <p>Você consegue responder?</p>
+    <ul>
+        <li>Q01 => Para que serve o perador % em JS? Seria para calcular porcentagem?</li>
+        <li>Q02 => 6 + 4 / 2 é igual a 5 ou 8?</li>
+        <li>Q03 => Se uma variável n está valendo 10 e executamos um n += 5, qual será seu novo valor?</li>
+        <li>Q04 => Para que servem os operadores ++ e -- ?</li>
+    </ul>
+
+    <h2>Operadores Relacionais</h2>
+    <ul>
+        <li>> maior que</li>
+        <li>< menor que</li>
+        <li>>= maior ou igual</li>
+        <li><= menor ou igual</li>
+        <li>== igual</li>
+        <li>!= diferente</li>
+    </ul>
+
+    <p>Exemplo:</p>
+    <p>5 > 2 => true</p>
+    <p>7 < 4 => false</p>
+    <p> 8 >= 8 => false</p>
+    <p>9 <= 7 => false</p>
+    <p>5 == 5 => true</p>
+    <p>4 != 4 => false</p>
+   
+    <h2>Operador de Identidade/De igualdade restrita </h2>
+    <p>Nesse tipo de operador usa-se 3 sinas de iguais, observe o exemplo</p>
+    <p>5 == 5 => true</p>
+    <p>5 == '5' => true (Observe que o Javascript, considera essa condição verdadeira, porém, não é verdade)</p>
+    <p>5 === '5' => false . Aqui o javascript, verifica se as variaveis são do mesmo valor e do mesmo tipo</p>
+    <p>typeof 5 = number</p>
+        <p>typeof '5' = string</p>
+    <p>5 === 5 => true. Valores idênticos</p>
+
+    <h2>Operadores Lógicos</h2>
+    <ul>
+       <li>! negação</li>
+       <li>&& conjunção</li>
+       <li>|| disjunção</li>
+    </ul>
+    <strong>
+        <p>Negação</p>
+    </strong>
+    <ul>
+        <li>! true => false (Não verdadeiro = falso)  </li>
+        <li>! false => true (Não falso = verdadeiro)</li>
+    </ul>
+    <p>Conjunção - Operador Binário. Aqui os dois precisam ser verdadeiro para o resultado ser verdadeiro</p>
+    <ul>
+        <li>true && true = true</li>
+        <li>true && false = false</li>
+        <li>false && true = false</li>
+        <li>false && false = false</li>
+    </ul>
+
+    <p>Disjunção - Operador Binário. Aqui basta que um seja verdadeiro para os dois serem verdadeiro.</p>
+    <ul>
+        <li>true || true = true</li>
+        <li>true || false = true</li>
+        <li>false || true = true</li>
+        <li>false || false = false</li>
+    </ul>
     <script>
         5 + 2
         9 % 2
