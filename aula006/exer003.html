@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu primeiro programa</title>
+    <style>
+      body {
+        background-color: cadetblue;
+        color: white;
+        font: normal 2em "Arial";
+      }
+
+      h1 {
+        color: #d9e716;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Olá Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+      //window.alert("Minha primeira mensagem");
+      //   window.confirm("Está gostando de JS?");
+      // window.prompt("Qual é seu nome?");
+      //  var nome = window.prompt("Qual é seu nome?");
+      // window.alert(`Seu nome é ${nome}`)
+      // window.alert('Olá,  ' + nome); //Concatenação
+      // var n1 = window.prompt("Digite um número:"); //String
+      // var n2 = window.prompt("Digite outro número: "); //String
+      //var s = Number.parseInt(n1) + Number.parseInt(n2);
+     // var s = Number(n1) + Number(n2);
+      // window.alert("A soma dos números é: " + String(s));
+      // window.alert("A soma dos números é: " + s);
+
+      var nome = window.prompt("Digite seu nome: ");
+      var idade = Number(window.prompt("Digite sua idade:"));
+      var nota = Number(window.prompt("Digite sua nota: "));
+
+      window.alert(`A aluna ${nome}, com ${idade} anos, tirou a nota: ${nota}`);
+    </script>
+  </body>
+</html>
