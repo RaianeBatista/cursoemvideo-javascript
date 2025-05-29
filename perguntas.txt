@@ -83,14 +83,45 @@ if (condição) {
     true
 }
 
-
-
-
+Aula 12 -  Condições parte 2
 Questão 1:
+Já sabe como usar a extensão Node Exec no VsCode?
+
 Questão 2:
+Sabe criar uma condição em seu programa JS?
+
 Questão 3:
+Consegue diferenciar condições simples e as condições compostas?
 
+Condição simples:
+if (condição) {
+    true
+}
 
+Condição composta:
+if (condição) {
+    true
+} else {
+    false
+}
+
+Condições Aninhadas, siginifa uma condição composta, com outras condições dentro dela
+Else if
+
+Estrutura condicional: Condição Múltipla
+switch (espressão) {
+    case valor1:
+    
+    break;
+    case valor2:
+
+    break;
+    case valor3:
+
+    break;
+    default:
+
+}
 
 Questão 1:
 Questão 2:

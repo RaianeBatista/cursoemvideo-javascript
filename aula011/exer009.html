@@ -17,9 +17,9 @@
         var res = window.document.querySelector("div#res");
         var pais = txtcountry.value;
         if (pais.trim().toLowerCase() != "brasil") {
-          res.innerHTML = `Você nasceu em ${pais}.Você é estrangeiro.`;
+          res.innerHTML = `<p>Você nasceu em<strong> ${pais}</strong>.Você é estrangeiro. </p>`;
         } else {
-          res.innerHTML = `Você nasceu no Brasil. Você é brasileiro.`;
+          res.innerHTML = `<p>Você nasceu no <strong>Brasil</strong>. Você é brasileiro.</p>`;
         }
       }
     </script>
