@@ -59,9 +59,16 @@ Funções, conjunto de códigos que serão executadas quando o evento ocorrer, c
 function ação(parametros){
     bloco
 }
+
+Aula 11 -  Condições
 Questão 1:
+Consegue citar três eventos que podem acontecer com elementos DOM de um site?
+
 Questão 2:
+O que é um função? Como criar funções em JS?
+
 Questão 3:
+Sabe como pegar os valores de caixas de texto e fazer cálculos com eles
 
 
 
