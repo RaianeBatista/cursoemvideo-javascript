@@ -1,0 +1,76 @@
+Introdução ao DOM
+Questão 1:
+Qual a diferença entre usar =, == e === em códigos escritos em JS?
+
+Questão 2:
+Em uma mesma expressão, temos os operadores || e &&. Quem eu resolvo primeiro?
+
+Questão 3:
+Sabe usar o operador ternário para colocar um entre dois valores em uma variável?
+
+Eventos DOM
+Questão 1:
+O que significa DOM?
+Documento Object Model, facilitador que existe dentro do navegador e no html5, para acessar os elementos da página
+
+Questão 2:
+Sabe montar a árvore DOM de um website simples?
+1. window
+1.1 location , document, history
+1.1.2 html
+1.1.2.3 head
+1.1.2.3.4 meta title
+1.1.2.3 body
+1.1.2.3.4 h1, p, div
+1.1.2.3.4.5 strong
+
+Questão 3:
+O que são os elementos Parent e os elementos Child em uma árvore DOM?
+window
+location , document, history
+html
+head
+meta title
+body
+h1, p, div
+strong
+
+Questão 4:
+Quais são os cinco principais métodos de selecionar elementos DM dentro do JS?
+TagName
+ID
+Name 
+ClassName
+querySelector
+
+Aula 010 - Eventos DOM
+Eventos de mouse:
+mouseenter (quando ovemos o mouse dentro da div)
+mousemove (movendo o mouse pela div)
+mousedown (quando o mouse clica e segura dentro da div)
+mouseup (quando o solta o botão do mouse dentro da div)
+click (apertar e soltar o botão do mouse na div)
+mouseout(quando movemos o mouse para fora da div )
+
+Acesse: https://developer.mozilla.org/en-US/docs/Web/Events
+
+Funções, conjunto de códigos que serão executadas quando o evento ocorrer, chamado bloco.
+
+function ação(parametros){
+    bloco
+}
+Questão 1:
+Questão 2:
+Questão 3:
+
+
+
+Questão 1:
+Questão 2:
+Questão 3:
+
+
+
+Questão 1:
+Questão 2:
+Questão 3:
