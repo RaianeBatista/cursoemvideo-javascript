@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nacionalidade</title>
+  </head>
+  <body>
+    <h1>Sistema de Nacionalidades</h1>
+    País de nascimento: <input type="text" name="textp" id="txtp" />
+    <input type="button" value="Verificar" onclick="analisar()" />
+    <div id="res"></div>
+
+    <script>
+      var txtcountry = window.document.querySelector("input#txtp");
+      function analisar() {
+        var res = window.document.querySelector("div#res");
+        var pais = txtcountry.value;
+        if (pais.trim().toLowerCase() != "brasil") {
+          res.innerHTML = `Você nasceu em ${pais}.Você é estrangeiro.`;
+        } else {
+          res.innerHTML = `Você nasceu no Brasil. Você é brasileiro.`;
+        }
+      }
+    </script>
+  </body>
+</html>

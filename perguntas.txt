@@ -1,3 +1,4 @@
+Importante!! para usar a extensão Node.js Exec, do VSCode, e exibir no console o código javascript, use a tecla f8, do teclado
 Introdução ao DOM
 Questão 1:
 Qual a diferença entre usar =, == e === em códigos escritos em JS?
@@ -70,6 +71,19 @@ O que é um função? Como criar funções em JS?
 Questão 3:
 Sabe como pegar os valores de caixas de texto e fazer cálculos com eles
 
+Condição:
+if (condição) {
+    true
+} else {
+    false
+}
+Tipos de Condição:
+Condição Simples
+if (condição) {
+    true
+}
+
+
 
 
 Questão 1:
@@ -77,6 +91,14 @@ Questão 2:
 Questão 3:
 
 
+
+Questão 1:
+Questão 2:
+Questão 3:
+
+Questão 1:
+Questão 2:
+Questão 3:
 
 Questão 1:
 Questão 2:
