@@ -11,7 +11,7 @@
 */
 
 // if (diaSem == 0)
-var diaSem = 4;
+var diaSem = 7;
 console.log(`Dia da semana: ${diaSem}`);
 
 switch (diaSem) {
