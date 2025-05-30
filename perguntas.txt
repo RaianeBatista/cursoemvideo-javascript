@@ -1,5 +1,6 @@
 Importante!! para usar a extensão Node.js Exec, do VSCode, e exibir no console o código javascript, use a tecla f8, do teclado
 Introdução ao DOM
+DNS público 8.8.8.8 e 8.8.4.4 google
 Questão 1:
 Qual a diferença entre usar =, == e === em códigos escritos em JS?
 
