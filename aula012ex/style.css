@@ -5,10 +5,22 @@ background: #1773ce;
 font: normal 1em Arial;
 }
 
-section {
+header {
+    color: white;
+    text-align: center;
+}
 
+section {
+background: white;
+border-radius: 10px;
+padding: 15px;
+width: 500px;
+margin: auto;
+box-shadow: 5px 5px 10px #0000006f;
 }
 
 footer {
-
+color: white;
+text-align: center;
+font-style: italic;
 }
