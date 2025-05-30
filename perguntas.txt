@@ -173,6 +173,20 @@ Questão 2:
 Já fez todos os teste com as extruturas while, do while e for?
 Questão 3:
 
+Aula 15 - Variáveis compostas
+Uma única variavel, guarda varios valores, identificados por uma chave,
+Array
+array/vetor, é uma variavel com varias espaços. É composo de elementos
+O Array é composto de elementos. O elemento de um array é um par que agrupa (O Espaço da memória,o Valor colocado dentro dele, e o Índice )
+Índice é a chave/key
+Conteúdo de cada elemento do array.
+--------- Array -------------
+É uma variavel que tem varios elementos, cada elemento é composto por seu valor e uma chave de identificação.
+Exemplo:
+let num = [5, 8, 4]
+Elementos = 0, 1, 2
+Valores = 5, 8, 4
+
 Questão 1:
 Questão 2:
 Questão 3:
