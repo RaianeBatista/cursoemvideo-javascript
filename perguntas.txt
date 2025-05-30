@@ -123,6 +123,59 @@ switch (espressão) {
     default:
 
 }
+ 
+ Aula 13
+Questão 1:
+Sabe mudar a cor de fundo de um site dinamicamente, usando JS?
+
+Questão 2:
+Consegue inserir uma imagem dentro do seu site sem ter a tag <img> previamente criada?
+
+Questão 3:
+Já treinou bastante o uso de condições simples, compostas, aninhadas e múltiplas?
+
+Estruturas de Repetição 
+While - estrutura de repetição com teste logico no inicio
+Ele faz o teste, sendo verdaeiro ele executa o bloco. Testa, executa e faz o loop.
+Enquanto algo for verdade, a condição vai se repetir (while)
+
+do (FAÇA) While (ENQUANTO) - estrutura de repetição com teste logico no inicio
+1º - Executa o bloco
+2º - Faz o teste
+Se o teste lógico for verdadeiro, ele faz o loop e executa o bloco,  enquanto a condição for verdadeira
+
+Estrutura de Repetição - auçla 14
+Questão 1:
+O que faço se quiser fazer uma determinada atividade acontecer várias vezes?
+
+Questão 2:
+Sabe diferenfiar as estruturas de condição e as estruturas de repetição?
+
+Questão 3:
+consegue dizer a diferença entren as estruturas while e a do... while?
+
+Estrutura de Repetição com variavel de controle:
+1º Na primeira passagem ele faz a inicialização e o teste lógico, sendo verdadeiro, executa o bloco, e volta, no momento do loop, elel faz  o incremento, volta pro inicio
+2º Teste lógico
+3º Incremento
+Dentro do for pode colocar qualquer outra extrutura de repetição
+for (inicio; teste; incremento) {
+
+}
+
+USE A TECLA F10 PARA DEPURAR O CÓDIGO, COM A EXTENÇÃO DE EXECUTAR E DEPURAR
+USE O MODO DEPURAÇÃO
+
+Questão 1:
+Já aprendeu a usar direito a extensão de depuração do javascript no vscode?
+
+Questão 2:
+Já fez todos os teste com as extruturas while, do while e for?
+Questão 3:
+
+Questão 1:
+Questão 2:
+Questão 3:
 
 Questão 1:
 Questão 2:
@@ -131,7 +184,6 @@ Questão 3:
 Questão 1:
 Questão 2:
 Questão 3:
-
 Questão 1:
 Questão 2:
 Questão 3:
