@@ -1,0 +1,223 @@
+Importante!! para usar a extensão Node.js Exec, do VSCode, e exibir no console o código javascript, use a tecla f8, do teclado
+Introdução ao DOM
+DNS público 8.8.8.8 e 8.8.4.4 google
+Questão 1:
+Qual a diferença entre usar =, == e === em códigos escritos em JS?
+
+Questão 2:
+Em uma mesma expressão, temos os operadores || e &&. Quem eu resolvo primeiro?
+
+Questão 3:
+Sabe usar o operador ternário para colocar um entre dois valores em uma variável?
+
+Eventos DOM
+Questão 1:
+O que significa DOM?
+Documento Object Model, facilitador que existe dentro do navegador e no html5, para acessar os elementos da página
+
+Questão 2:
+Sabe montar a árvore DOM de um website simples?
+1. window
+1.1 location , document, history
+1.1.2 html
+1.1.2.3 head
+1.1.2.3.4 meta title
+1.1.2.3 body
+1.1.2.3.4 h1, p, div
+1.1.2.3.4.5 strong
+
+Questão 3:
+O que são os elementos Parent e os elementos Child em uma árvore DOM?
+window
+location , document, history
+html
+head
+meta title
+body
+h1, p, div
+strong
+
+Questão 4:
+Quais são os cinco principais métodos de selecionar elementos DM dentro do JS?
+TagName
+ID
+Name 
+ClassName
+querySelector
+
+Aula 010 - Eventos DOM
+Eventos de mouse:
+mouseenter (quando ovemos o mouse dentro da div)
+mousemove (movendo o mouse pela div)
+mousedown (quando o mouse clica e segura dentro da div)
+mouseup (quando o solta o botão do mouse dentro da div)
+click (apertar e soltar o botão do mouse na div)
+mouseout(quando movemos o mouse para fora da div )
+
+Acesse: https://developer.mozilla.org/en-US/docs/Web/Events
+
+Funções, conjunto de códigos que serão executadas quando o evento ocorrer, chamado bloco.
+
+function ação(parametros){
+    bloco
+}
+
+Aula 11 -  Condições
+Questão 1:
+Consegue citar três eventos que podem acontecer com elementos DOM de um site?
+
+Questão 2:
+O que é um função? Como criar funções em JS?
+
+Questão 3:
+Sabe como pegar os valores de caixas de texto e fazer cálculos com eles
+
+Condição:
+if (condição) {
+    true
+} else {
+    false
+}
+Tipos de Condição:
+Condição Simples
+if (condição) {
+    true
+}
+
+Aula 12 -  Condições parte 2
+Questão 1:
+Já sabe como usar a extensão Node Exec no VsCode?
+
+Questão 2:
+Sabe criar uma condição em seu programa JS?
+
+Questão 3:
+Consegue diferenciar condições simples e as condições compostas?
+
+Condição simples:
+if (condição) {
+    true
+}
+
+Condição composta:
+if (condição) {
+    true
+} else {
+    false
+}
+
+Condições Aninhadas, siginifa uma condição composta, com outras condições dentro dela
+Else if
+
+Estrutura condicional: Condição Múltipla
+switch (espressão) {
+    case valor1:
+    
+    break;
+    case valor2:
+
+    break;
+    case valor3:
+
+    break;
+    default:
+
+}
+ 
+ Aula 13
+Questão 1:
+Sabe mudar a cor de fundo de um site dinamicamente, usando JS?
+
+Questão 2:
+Consegue inserir uma imagem dentro do seu site sem ter a tag <img> previamente criada?
+
+Questão 3:
+Já treinou bastante o uso de condições simples, compostas, aninhadas e múltiplas?
+
+Estruturas de Repetição 
+While - estrutura de repetição com teste logico no inicio
+Ele faz o teste, sendo verdaeiro ele executa o bloco. Testa, executa e faz o loop.
+Enquanto algo for verdade, a condição vai se repetir (while)
+
+do (FAÇA) While (ENQUANTO) - estrutura de repetição com teste logico no inicio
+1º - Executa o bloco
+2º - Faz o teste
+Se o teste lógico for verdadeiro, ele faz o loop e executa o bloco,  enquanto a condição for verdadeira
+
+Estrutura de Repetição - auçla 14
+Questão 1:
+O que faço se quiser fazer uma determinada atividade acontecer várias vezes?
+
+Questão 2:
+Sabe diferenfiar as estruturas de condição e as estruturas de repetição?
+
+Questão 3:
+consegue dizer a diferença entren as estruturas while e a do... while?
+
+Estrutura de Repetição com variavel de controle:
+1º Na primeira passagem ele faz a inicialização e o teste lógico, sendo verdadeiro, executa o bloco, e volta, no momento do loop, elel faz  o incremento, volta pro inicio
+2º Teste lógico
+3º Incremento
+Dentro do for pode colocar qualquer outra extrutura de repetição
+for (inicio; teste; incremento) {
+
+}
+
+USE A TECLA F10 PARA DEPURAR O CÓDIGO, COM A EXTENÇÃO DE EXECUTAR E DEPURAR
+USE O MODO DEPURAÇÃO
+
+Questão 1:
+Já aprendeu a usar direito a extensão de depuração do javascript no vscode?
+
+Questão 2:
+Já fez todos os teste com as extruturas while, do while e for?
+Questão 3:
+
+Aula 15 - Variáveis compostas
+Variáveis simples só conseguem armazenar uma valor por vez.
+
+Variáveis compostas, devem ser capazes de armazenar vários valores em uma mesma estrutura.
+Uma única variavel, guarda varios valores, identificados por uma chave,
+Array
+array/vetor, é uma variavel com varias espaços. É composo de elementos
+O Array é composto de elementos. O elemento de um array é um par que agrupa (O Espaço da memória,o Valor colocado dentro dele, e o Índice )
+Índice é a chave/key
+Conteúdo de cada elemento do array.
+--------- Array -------------
+É uma variavel que tem varios elementos, cada elemento é composto por seu valor e uma chave de identificação.
+Exemplo:
+let num = [5, 8, 4]
+Elementos = 0, 1, 2
+Valores = 5, 8, 4
+
+O for in , possui 2 elementos, é uma uma versão do FOR simplificada, é otimizado para variaves compostas e objetos
+for (let pos in num ){
+    console.log(num[pos])
+}
+
+O método indexOf(), retorna a chave onde o valor se encontra
+
+------ Aula 16 ----- Funções
+São ações executadas assim que são chamadas ou em deocrrência de algum evento.
+Uma função pode receber parâmetros e retornar um resultado.
+Exemplo:
+
+function ação(param){
+
+}
+ação(5) => chamada da função
+
+Questão 1:
+Questão 2:
+Questão 3:
+
+Questão 1:
+Questão 2:
+Questão 3:
+
+Questão 1:
+Questão 2:
+Questão 3:
+Questão 1:
+Questão 2:
+Questão 3:

@@ -24,7 +24,15 @@ for (let pos in valores) {
 
 //Método indexOf(7) Buscando valores dentro de um vetor, retorna a chave/posição onde o valor se encontra n array
 
-console.log(valores.indexOf(7));
+//console.log(valores.indexOf(7));
 
 // Quando o método indexOf não encontra o valor no vetor, ele retorna o -1
-console.log(valores.indexOf(3));
+//console.log(valores.indexOf(3));
+
+//let pos = valores.indexOf(3);
+let pos = valores.indexOf(9);
+if (pos == -1) {
+  console.log("O valor não foi encontrado!");
+} else {
+  console.log(`O  valor 4 está na posição ${pos}`);
+}
